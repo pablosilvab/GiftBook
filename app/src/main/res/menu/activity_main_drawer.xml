@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nuevoRegalo"
+            android:icon="@drawable/nuevoregalo_icon"
+            android:title="Nuevo regalo" />
+        <item
+            android:id="@+id/nav_personas"
+            android:icon="@drawable/personas_icon"
+            android:title="Personas" />
+        <item
+            android:id="@+id/nav_regalos"
+            android:icon="@drawable/regalo_icon"
+            android:title="Regalos" />
+    </group>
+
+    <item android:title="Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/out_icon"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>
